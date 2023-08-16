@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="547.0" prefWidth="814.0" style="-fx-background-color: #212121;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ir.sharif.math.zahraSoukhtedel.view.messagingPage.MessagingFXController">
+   <children>
+      <ScrollPane layoutX="31.0" layoutY="43.0" prefHeight="448.0" prefWidth="200.0">
+         <content>
+            <VBox fx:id="chatList" prefHeight="447.0" prefWidth="184.0" style="-fx-background-color: grey;" />
+         </content>
+      </ScrollPane>
+      <ScrollPane fx:id="scroll" layoutX="260.0" layoutY="43.0" prefHeight="448.0" prefWidth="529.0">
+         <content>
+            <VBox fx:id="chatBox" prefHeight="449.0" prefWidth="513.0" style="-fx-background-color: grey;" />
+         </content>
+      </ScrollPane>
+      <Button layoutX="418.0" layoutY="506.0" mnemonicParsing="false" onAction="#chatGroup" prefHeight="24.0" prefWidth="165.0" text="chat group" />
+      <Button layoutX="230.0" layoutY="506.0" mnemonicParsing="false" onAction="#sendMessage" prefHeight="24.0" prefWidth="165.0" text="send message" />
+      <Button layoutX="603.0" layoutY="506.0" mnemonicParsing="false" onAction="#back" prefHeight="24.0" prefWidth="165.0" text="back" />
+      <Button layoutX="48.0" layoutY="506.0" mnemonicParsing="false" onAction="#goToMainPage" prefHeight="24.0" prefWidth="165.0" text="main page" />
+      <Label fx:id="chatNameLabel" alignment="CENTER" layoutX="260.0" layoutY="6.0" prefHeight="31.0" prefWidth="529.0" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

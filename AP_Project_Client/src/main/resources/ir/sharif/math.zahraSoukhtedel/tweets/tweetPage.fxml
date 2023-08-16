@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane prefHeight="547.0" prefWidth="814.0" style="-fx-background-color: #212121;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ir.sharif.math.zahraSoukhtedel.view.tweets.TweetFXController">
+    <ScrollPane layoutX="178.0" layoutY="203.0" prefHeight="308.0" prefWidth="599.0">
+        <content>
+            <VBox fx:id="commentsBox" prefHeight="308.0" prefWidth="582.0" spacing="10.0" style="-fx-background-color: grey;" />
+        </content>
+    </ScrollPane>
+   <Rectangle fx:id="photoBox" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff" height="203.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="179.0" />
+   <TextArea fx:id="tweetContent" layoutX="190.0" layoutY="56.0" prefHeight="137.0" prefWidth="586.0" />
+   <Label fx:id="retweetLabel" layoutX="312.0" layoutY="14.0" prefHeight="31.0" prefWidth="237.0" textFill="#854442" />
+   <Label fx:id="tweetDate" layoutX="178.0" layoutY="511.0" prefHeight="24.0" prefWidth="186.0" textFill="WHITE" />
+   <Label fx:id="likesCounter" alignment="CENTER_RIGHT" layoutX="514.0" layoutY="509.0" prefHeight="24.0" prefWidth="265.0" textFill="#1f0bf8" />
+   <Label fx:id="verdictLabel" alignment="CENTER_RIGHT" layoutX="540.0" layoutY="14.0" prefHeight="31.0" prefWidth="237.0" textFill="#854442" />
+   <Button layoutX="10.0" layoutY="220.0" mnemonicParsing="false" onAction="#save" prefHeight="24.0" prefWidth="159.0" style="-fx-background-color: #854442;" text="save" textFill="WHITE" />
+   <Button layoutX="10.0" layoutY="250.0" mnemonicParsing="false" onAction="#retweet" prefHeight="24.0" prefWidth="159.0" style="-fx-background-color: #854442;" text="retweet" textFill="WHITE" />
+   <Button layoutX="10.0" layoutY="281.0" mnemonicParsing="false" onAction="#forward" prefHeight="24.0" prefWidth="159.0" style="-fx-background-color: #854442;" text="forward" textFill="WHITE" />
+   <Button layoutX="10.0" layoutY="312.0" mnemonicParsing="false" onAction="#checkUserProfile" prefHeight="24.0" prefWidth="159.0" style="-fx-background-color: #854442;" text="user profile" textFill="WHITE" />
+   <Button fx:id="likeButton" layoutX="10.0" layoutY="345.0" mnemonicParsing="false" onAction="#like" prefHeight="24.0" prefWidth="159.0" style="-fx-background-color: #854442;" text="like" textFill="WHITE" />
+   <Button layoutX="10.0" layoutY="378.0" mnemonicParsing="false" onAction="#addComment" prefHeight="24.0" prefWidth="159.0" style="-fx-background-color: #854442;" text="add comment" textFill="WHITE" />
+   <Button layoutX="10.0" layoutY="409.0" mnemonicParsing="false" onAction="#reportSpam" prefHeight="24.0" prefWidth="159.0" style="-fx-background-color: #854442;" text="report spam" textFill="WHITE" />
+   <Button layoutX="10.0" layoutY="441.0" mnemonicParsing="false" onAction="#back" prefHeight="24.0" prefWidth="159.0" style="-fx-background-color: #854442;" text="back" textFill="WHITE" />
+   <Button layoutX="10.0" layoutY="473.0" mnemonicParsing="false" onAction="#goToMainPage" prefHeight="24.0" prefWidth="159.0" style="-fx-background-color: #854442;" text="main page" textFill="WHITE" />
+   <Label fx:id="tweetIdLabel" layoutX="190.0" layoutY="13.0" prefHeight="25.0" prefWidth="109.0" textFill="WHITE" />
+</AnchorPane>

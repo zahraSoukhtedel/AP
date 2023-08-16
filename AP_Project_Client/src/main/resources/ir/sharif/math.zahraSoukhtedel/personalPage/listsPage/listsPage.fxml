@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="547.0" prefWidth="814.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ir.sharif.math.zahraSoukhtedel.view.personalPage.listsPage.ListsFXController">
+   <children>
+      <ScrollPane layoutX="21.0" layoutY="67.0" prefHeight="414.0" prefWidth="182.0">
+         <content>
+            <VBox fx:id="followersBox" prefHeight="414.0" prefWidth="165.0" />
+         </content>
+      </ScrollPane>
+      <ScrollPane layoutX="215.0" layoutY="65.0" prefHeight="414.0" prefWidth="182.0">
+         <content>
+            <VBox fx:id="followingsBox" prefHeight="414.0" prefWidth="165.0" />
+         </content>
+      </ScrollPane>
+      <ScrollPane layoutX="407.0" layoutY="65.0" prefHeight="414.0" prefWidth="182.0">
+         <content>
+            <VBox fx:id="blockedUsersBox" prefHeight="414.0" prefWidth="165.0" />
+         </content>
+      </ScrollPane>
+      <ScrollPane layoutX="599.0" layoutY="65.0" prefHeight="414.0" prefWidth="182.0">
+         <content>
+            <VBox fx:id="groupsBox" prefHeight="413.0" prefWidth="165.0" />
+         </content>
+      </ScrollPane>
+      <Label alignment="CENTER" layoutX="21.0" layoutY="23.0" prefHeight="35.0" prefWidth="182.0" text="followers">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="215.0" layoutY="23.0" prefHeight="35.0" prefWidth="182.0" text="followings">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="407.0" layoutY="23.0" prefHeight="35.0" prefWidth="182.0" text="blocked users">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="599.0" layoutY="23.0" prefHeight="35.0" prefWidth="182.0" text="groups">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Button layoutX="21.0" layoutY="508.0" mnemonicParsing="false" onAction="#back" prefHeight="25.0" prefWidth="96.0" style="-fx-background-color: #536878;" text="back" />
+      <Button layoutX="340.0" layoutY="499.0" mnemonicParsing="false" onAction="#newGroup" prefHeight="35.0" prefWidth="131.0" style="-fx-background-color: #536878;" text="new group" />
+      <Button layoutX="704.0" layoutY="508.0" mnemonicParsing="false" onAction="#goToMainPage" prefHeight="25.0" prefWidth="96.0" style="-fx-background-color: #536878;" text="main page" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="547.0" prefWidth="814.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ir.sharif.math.zahraSoukhtedel.view.timelinePage.TimelineFXController">
+    <ScrollPane layoutX="120.0" layoutY="97.0" prefHeight="369.0" prefWidth="599.0">
+        <content>
+            <VBox fx:id="tweetBox" prefHeight="369.0" prefWidth="582.0" spacing="10.0" />
+        </content>
+    </ScrollPane>
+   <Button layoutX="14.0" layoutY="491.0" mnemonicParsing="false" onAction="#back" prefHeight="42.0" prefWidth="93.0" style="-fx-background-color: #536878;" text="back">
+      <font>
+         <Font size="17.0" />
+      </font>
+   </Button>
+   <Label alignment="CENTER" contentDisplay="CENTER" layoutX="218.0" layoutY="35.0" prefHeight="46.0" prefWidth="403.0" text="Timeline" textFill="#854442">
+      <font>
+         <Font name="System Bold Italic" size="32.0" />
+      </font>
+   </Label>
+</AnchorPane>

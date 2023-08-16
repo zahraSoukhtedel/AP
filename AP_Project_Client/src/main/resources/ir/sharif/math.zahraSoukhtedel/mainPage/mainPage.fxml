@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="547.0" prefWidth="814.0" style="-fx-background-color: #212121;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ir.sharif.math.zahraSoukhtedel.view.mainPage.MainFXController">
+   <children>
+      <Button layoutX="205.0" layoutY="142.0" mnemonicParsing="false" onAction="#personalPage" prefHeight="24.0" prefWidth="403.0" style="-fx-background-color: #536878;" text="personal page">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="205.0" layoutY="208.0" mnemonicParsing="false" onAction="#timeline" prefHeight="24.0" prefWidth="403.0" style="-fx-background-color: #854442;" text="timeline">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="207.0" layoutY="273.0" mnemonicParsing="false" onAction="#explorer" prefHeight="24.0" prefWidth="403.0" style="-fx-background-color: #536878;" text="explorer">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="206.0" layoutY="341.0" mnemonicParsing="false" onAction="#messaging" prefHeight="24.0" prefWidth="403.0" style="-fx-background-color: #854442;" text="messaging">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="206.0" layoutY="403.0" mnemonicParsing="false" onAction="#settings" prefHeight="24.0" prefWidth="403.0" style="-fx-background-color: #536878;" text="settings">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="207.0" layoutY="50.0" prefHeight="46.0" prefWidth="403.0" text="Grus" textFill="#985ee4">
+         <font>
+            <Font name="System Bold Italic" size="40.0" />
+         </font>
+      </Label>
+      <Button layoutX="204.0" layoutY="459.0" mnemonicParsing="false" onAction="#online" prefHeight="39.0" prefWidth="403.0" style="-fx-background-color: #854442;" text="online">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="errorLabel" layoutX="166.0" layoutY="42.0" prefHeight="39.0" prefWidth="485.0" textAlignment="CENTER" textFill="#f50a0a" />
+   </children>
+</AnchorPane>

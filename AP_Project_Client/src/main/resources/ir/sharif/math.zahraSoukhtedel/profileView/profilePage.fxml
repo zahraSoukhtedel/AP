@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="547.0" prefWidth="814.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ir.sharif.math.zahraSoukhtedel.view.profileView.ProfileFXController">
+    <Line endX="836.0" endY="79.5" layoutX="-22.0" layoutY="7.0" startX="22.0" startY="79.5" />
+    <Circle fx:id="avatar" fill="WHITE" layoutX="769.0" layoutY="47.0" radius="39.0" stroke="BLACK" strokeType="INSIDE" />
+   <Label fx:id="usernameLabel" alignment="CENTER" layoutX="291.0" layoutY="33.0" prefHeight="29.0" prefWidth="233.0">
+      <font>
+         <Font name="System Bold Italic" size="16.0" />
+      </font>
+   </Label>
+   <VBox layoutX="45.0" layoutY="118.0" prefHeight="265.0" prefWidth="202.0" spacing="10.0">
+      <children>
+         <Label prefHeight="36.0" prefWidth="258.0" text="first name">
+            <font>
+               <Font name="System Bold Italic" size="16.0" />
+            </font>
+         </Label>
+         <Label prefHeight="36.0" prefWidth="238.0" text="last name">
+            <font>
+               <Font name="System Bold Italic" size="16.0" />
+            </font>
+         </Label>
+         <Label prefHeight="36.0" prefWidth="234.0" text="last seen">
+            <font>
+               <Font name="System Bold Italic" size="16.0" />
+            </font>
+         </Label>
+         <Label prefHeight="36.0" prefWidth="211.0" text="bio">
+            <font>
+               <Font name="System Bold Italic" size="16.0" />
+            </font>
+         </Label>
+         <Label prefHeight="36.0" prefWidth="211.0" text="birth date">
+            <font>
+               <Font name="System Bold Italic" size="16.0" />
+            </font>
+         </Label>
+         <Label prefHeight="36.0" prefWidth="236.0" text="email">
+            <font>
+               <Font name="System Bold Italic" size="16.0" />
+            </font>
+         </Label>
+         <Label prefHeight="36.0" prefWidth="206.0" text="phone number">
+            <font>
+               <Font name="System Bold Italic" size="16.0" />
+            </font>
+         </Label>
+      </children>
+   </VBox>
+   <VBox layoutX="234.0" layoutY="118.0" prefHeight="265.0" prefWidth="202.0" spacing="10.0">
+      <children>
+         <Label fx:id="firstnameLabel" prefHeight="36.0" prefWidth="258.0">
+            <font>
+               <Font size="16.0" />
+            </font>
+         </Label>
+         <Label fx:id="lastnameLabel" prefHeight="36.0" prefWidth="238.0">
+            <font>
+               <Font size="16.0" />
+            </font>
+         </Label>
+         <Label fx:id="lastSeenLabel" prefHeight="36.0" prefWidth="234.0">
+            <font>
+               <Font size="16.0" />
+            </font>
+         </Label>
+         <Label fx:id="bioLabel" prefHeight="36.0" prefWidth="211.0">
+            <font>
+               <Font size="16.0" />
+            </font>
+         </Label>
+         <Label fx:id="birthDateLabel" prefHeight="36.0" prefWidth="211.0">
+            <font>
+               <Font size="16.0" />
+            </font>
+         </Label>
+         <Label fx:id="emailLabel" prefHeight="36.0" prefWidth="236.0">
+            <font>
+               <Font size="16.0" />
+            </font>
+         </Label>
+         <Label fx:id="phoneNumberLabel" prefHeight="36.0" prefWidth="206.0">
+            <font>
+               <Font size="16.0" />
+            </font>
+         </Label>
+      </children>
+   </VBox>
+   <Button layoutX="45.0" layoutY="448.0" mnemonicParsing="false" onAction="#messageHandling" prefHeight="24.0" prefWidth="98.0" text="message" />
+   <Button fx:id="muteButton" layoutX="169.0" layoutY="448.0" mnemonicParsing="false" onAction="#muteHandling" prefHeight="24.0" prefWidth="98.0" text="mute" />
+   <Button fx:id="blockButton" layoutX="298.0" layoutY="448.0" mnemonicParsing="false" onAction="#blockHandling" prefHeight="24.0" prefWidth="98.0" text="block" />
+   <Button fx:id="followButton" layoutX="426.0" layoutY="448.0" mnemonicParsing="false" onAction="#followHandling" prefHeight="24.0" prefWidth="98.0" text="follow" />
+   <Button layoutX="555.0" layoutY="448.0" mnemonicParsing="false" onAction="#back" prefHeight="24.0" prefWidth="98.0" text="back" />
+   <Button layoutX="681.0" layoutY="448.0" mnemonicParsing="false" onAction="#goToMainPage" prefHeight="24.0" prefWidth="98.0" text="main page" />
+</AnchorPane>

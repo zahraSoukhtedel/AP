@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="messagePanel" prefHeight="200.0" prefWidth="513.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ir.sharif.math.zahraSoukhtedel.view.messagingPage.MessagePanelFXController">
+   <children>
+      <Label fx:id="senderLabel" layoutX="21.0" layoutY="14.0" prefHeight="28.0" prefWidth="472.0" textFill="#ee0b0b" />
+      <Label fx:id="messageDateLabel" layoutX="21.0" layoutY="158.0" prefHeight="28.0" prefWidth="174.0" textFill="#be27ff" />
+      <Button layoutX="401.0" layoutY="160.0" mnemonicParsing="false" onAction="#view" prefHeight="24.0" prefWidth="92.0" text="view" />
+      <Label fx:id="messageStateLabel" alignment="CENTER" layoutX="336.0" layoutY="158.0" prefHeight="28.0" prefWidth="56.0" textFill="#ff0e0e" />
+      <TextFlow fx:id="textFlow" layoutX="29.0" layoutY="45.0" prefHeight="101.0" prefWidth="457.0" />
+   </children>
+   <effect>
+      <InnerShadow />
+   </effect>
+</AnchorPane>

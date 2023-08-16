@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="547.0" prefWidth="814.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ir.sharif.math.zahraSoukhtedel.view.personalPage.listsPage.GroupFXController">
+    <ScrollPane layoutX="304.0" layoutY="67.0" prefHeight="414.0" prefWidth="182.0">
+        <content>
+            <VBox fx:id="membersBox" prefHeight="414.0" prefWidth="165.0" />
+        </content>
+    </ScrollPane>
+    <Label alignment="CENTER" layoutX="304.0" layoutY="24.0" prefHeight="35.0" prefWidth="182.0" text="members">
+        <font>
+            <Font name="System Bold Italic" size="15.0" />
+        </font>
+    </Label>
+   <Button layoutX="595.0" layoutY="252.0" mnemonicParsing="false" onAction="#removeGroup" prefHeight="35.0" prefWidth="120.0" style="-fx-background-color: #854442;" text="remove group" textFill="WHITE" />
+   <Button layoutX="24.0" layoutY="509.0" mnemonicParsing="false" onAction="#back" prefHeight="25.0" prefWidth="106.0" style="-fx-background-color: #854442;" text="back" textFill="WHITE" />
+   <Button layoutX="688.0" layoutY="509.0" mnemonicParsing="false" onAction="#goToMainPage" prefHeight="25.0" prefWidth="106.0" style="-fx-background-color: #854442;" text="main page" textFill="WHITE" />
+   <TextField fx:id="addUserField" layoutX="24.0" layoutY="239.0" prefHeight="24.0" prefWidth="191.0" promptText="add user" />
+   <TextField fx:id="removeUserField" layoutX="24.0" layoutY="288.0" prefHeight="24.0" prefWidth="191.0" promptText="remove user" />
+   <Button layoutX="215.0" layoutY="239.0" mnemonicParsing="false" onAction="#addUser" prefHeight="24.0" prefWidth="70.0" text="add" />
+   <Button layoutX="215.0" layoutY="288.0" mnemonicParsing="false" onAction="#removeUser" prefHeight="24.0" prefWidth="70.0" text="remove" />
+   <Label fx:id="errorLabel" alignment="CENTER" layoutX="24.0" layoutY="326.0" prefHeight="24.0" prefWidth="262.0" textFill="#eb0808" />
+</AnchorPane>

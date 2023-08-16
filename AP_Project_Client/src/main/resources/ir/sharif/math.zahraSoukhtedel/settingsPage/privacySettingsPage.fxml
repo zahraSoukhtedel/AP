@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="547.0" prefWidth="814.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ir.sharif.math.zahraSoukhtedel.view.settings.PrivacySettingsFXController">
+   <children>
+      <CheckBox fx:id="privacy" layoutX="292.0" layoutY="286.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="247.0" text="I want my account to be private" />
+      <TextField fx:id="passwordField" layoutX="300.0" layoutY="219.0" prefHeight="24.0" prefWidth="231.0" />
+      <Label alignment="CENTER_RIGHT" layoutX="193.0" layoutY="219.0" prefHeight="24.0" prefWidth="91.0" text="password">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="lastSeenChoice" layoutX="339.0" layoutY="156.0" prefHeight="24.0" prefWidth="138.0" />
+      <Label alignment="CENTER_RIGHT" layoutX="139.0" layoutY="157.0" prefHeight="22.0" prefWidth="145.0" text="last seen">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Button layoutX="314.0" layoutY="379.0" mnemonicParsing="false" onAction="#deactivate" prefHeight="33.0" prefWidth="190.0" style="-fx-background-color: #536878;" text="deactivate" textFill="WHITE" />
+      <Button layoutX="314.0" layoutY="420.0" mnemonicParsing="false" onAction="#edit" prefHeight="33.0" prefWidth="190.0" style="-fx-background-color: #536878;" text="edit" textFill="WHITE" />
+      <Button layoutX="20.0" layoutY="492.0" mnemonicParsing="false" onAction="#back" prefHeight="41.0" prefWidth="119.0" style="-fx-background-color: #536878;" text="back" textFill="WHITE" />
+      <Button layoutX="675.0" layoutY="492.0" mnemonicParsing="false" onAction="#goToMainPage" prefHeight="41.0" prefWidth="119.0" style="-fx-background-color: #536878;" text="main page" textFill="WHITE" />
+   </children>
+</AnchorPane>

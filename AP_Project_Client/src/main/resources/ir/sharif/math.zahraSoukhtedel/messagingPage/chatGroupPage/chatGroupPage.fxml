@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="547.0" prefWidth="814.0" style="-fx-background-color: #212121;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ir.sharif.math.zahraSoukhtedel.view.messagingPage.ChatGroupPage.ChatGroupFXController">
+   <children>
+      <Label alignment="CENTER" layoutX="62.0" layoutY="44.0" prefHeight="51.0" prefWidth="267.0" text="new chat group" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="468.0" layoutY="126.0" prefHeight="51.0" prefWidth="267.0" text="add user to group" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="newGroupNameField" layoutX="92.0" layoutY="95.0" prefHeight="82.0" prefWidth="206.0" promptText="group name" style="-fx-background-color: grey;" />
+      <Button layoutX="163.0" layoutY="183.0" mnemonicParsing="false" onAction="#newGroup" prefHeight="24.0" prefWidth="64.0" style="-fx-background-color: #854442;" text="create" textFill="WHITE" />
+      <TextField fx:id="groupNameField" layoutX="493.0" layoutY="183.0" prefHeight="65.0" prefWidth="217.0" promptText="group name" style="-fx-background-color: grey;" />
+      <TextField fx:id="usernameField" layoutX="493.0" layoutY="262.0" prefHeight="65.0" prefWidth="217.0" promptText="username" style="-fx-background-color: grey;" />
+      <Button layoutX="565.0" layoutY="345.0" mnemonicParsing="false" onAction="#addUser" prefHeight="24.0" prefWidth="74.0" style="-fx-background-color: #854442;" text="add" textFill="WHITE" />
+
+      <Button layoutX="21.0" layoutY="498.0" mnemonicParsing="false" onAction="#back" prefHeight="32.0" prefWidth="74.0" style="-fx-background-color: #536878;" text="back" textFill="WHITE" />
+      <Button layoutX="719.0" layoutY="495.0" mnemonicParsing="false" onAction="#goToMainPage" prefHeight="32.0" prefWidth="74.0" style="-fx-background-color: #536878;" text="main page" textFill="WHITE" />
+      <Label fx:id="errorLabel" alignment="CENTER" layoutX="21.0" layoutY="467.0" prefHeight="43.0" prefWidth="765.0" textFill="#e10707" />
+      <Label alignment="CENTER" layoutX="61.0" layoutY="262.0" prefHeight="51.0" prefWidth="267.0" text="remove group" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="removeGroupNameField" layoutX="90.0" layoutY="316.0" prefHeight="82.0" prefWidth="206.0" promptText="group name" style="-fx-background-color: grey;" />
+      <Button layoutX="157.0" layoutY="416.0" mnemonicParsing="false" onAction="#removeGroup" prefHeight="24.0" prefWidth="74.0" style="-fx-background-color: #854442;" text="remove" textFill="WHITE" />
+   </children>
+</AnchorPane>

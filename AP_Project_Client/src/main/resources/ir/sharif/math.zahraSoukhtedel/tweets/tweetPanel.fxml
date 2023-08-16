@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="tweetPanel" prefHeight="150.0" prefWidth="582.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ir.sharif.math.zahraSoukhtedel.view.tweets.TweetPanelFXController">
+   <effect>
+      <InnerShadow />
+   </effect>
+   <children>
+      <Label fx:id="tweetContent" alignment="TOP_LEFT" layoutX="12.0" layoutY="47.0" prefHeight="56.0" prefWidth="555.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="tweetDate" layoutX="13.0" layoutY="112.0" prefHeight="24.0" prefWidth="186.0" textFill="#854442" />
+      <Button layoutX="476.0" layoutY="108.0" mnemonicParsing="false" onAction="#view" prefHeight="24.0" prefWidth="92.0" style="-fx-background-color: #854442;" text="view" textFill="WHITE" />
+      <Label fx:id="retweetLabel" layoutX="12.0" layoutY="14.0" prefHeight="31.0" prefWidth="235.0" textFill="#e40d0d" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,23 @@
+2021-08-22 01:23:59.896 [main] INFO  ir.sharif.math.zahraSoukhtedel.Main - server program started
+2021-08-22 01:25:03.280 [main] INFO  ir.sharif.math.zahraSoukhtedel.database.Connector - connected to database
+2021-08-22 01:25:03.353 [main] INFO  ir.sharif.math.zahraSoukhtedel.controller.SocketManager - socket Socket[addr=/127.0.0.1,port=59882,localport=1080] is connected
+2021-08-22 01:25:16.982 [Thread-3] INFO  ir.sharif.math.zahraSoukhtedel.database.Connector - transaction started
+2021-08-22 01:25:18.340 [Thread-3] INFO  ir.sharif.math.zahraSoukhtedel.database.Connector - instance saved : Chat(id=1, chatName=saved messages, messages=[], users=[], isGroup=false)
+2021-08-22 01:25:18.860 [Thread-3] INFO  ir.sharif.math.zahraSoukhtedel.database.Connector - transaction committed
+2021-08-22 01:25:19.390 [Thread-3] INFO  ir.sharif.math.zahraSoukhtedel.database.Connector - transaction started
+2021-08-22 01:25:19.724 [Thread-3] INFO  ir.sharif.math.zahraSoukhtedel.database.Connector - instance saved : User(id=1, firstname=z, lastname=z, username=z, bio=z, birthDate=null, email=z, phoneNumber=z, password=z, publicData=false, isActive=true, lastSeen=2021-08-22T01:25:19.390107200, lastSeenType=Everyone, followings=[], followers=[], blockList=[], tweets=[], requestNotifications=[], likedTweets=[], requests=[], notifications=[], isPrivate=false, groups=[], mutedUsers=[], avatar=1, reportedSpamTweets=[], chatStates=[])
+2021-08-22 01:25:19.988 [Thread-3] INFO  ir.sharif.math.zahraSoukhtedel.database.Connector - transaction committed
+2021-08-22 01:25:19.989 [Thread-3] INFO  ir.sharif.math.zahraSoukhtedel.database.Connector - transaction started
+2021-08-22 01:25:20.957 [Thread-3] INFO  ir.sharif.math.zahraSoukhtedel.database.Connector - instance saved : Chat(id=1, chatName=saved messages, messages=[], users=[1], isGroup=false)
+2021-08-22 01:25:22.126 [Thread-3] INFO  ir.sharif.math.zahraSoukhtedel.database.Connector - transaction committed
+2021-08-22 01:25:22.127 [Thread-3] INFO  ir.sharif.math.zahraSoukhtedel.database.Connector - transaction started
+2021-08-22 01:25:22.187 [Thread-3] INFO  ir.sharif.math.zahraSoukhtedel.database.Connector - instance saved : ChatState(id=1, chat=1, lastCheck=2021-08-22T01:25:22.127586500)
+2021-08-22 01:25:22.551 [Thread-3] INFO  ir.sharif.math.zahraSoukhtedel.database.Connector - transaction committed
+2021-08-22 01:25:22.551 [Thread-3] INFO  ir.sharif.math.zahraSoukhtedel.database.Connector - transaction started
+2021-08-22 01:25:22.553 [Thread-3] INFO  ir.sharif.math.zahraSoukhtedel.database.Connector - instance saved : User(id=1, firstname=z, lastname=z, username=z, bio=z, birthDate=null, email=z, phoneNumber=z, password=z, publicData=false, isActive=true, lastSeen=null, lastSeenType=Everyone, followings=[], followers=[], blockList=[], tweets=[], requestNotifications=[], likedTweets=[], requests=[], notifications=[], isPrivate=false, groups=[], mutedUsers=[], avatar=1, reportedSpamTweets=[], chatStates=[1])
+2021-08-22 01:25:22.943 [Thread-3] INFO  ir.sharif.math.zahraSoukhtedel.database.Connector - transaction committed
+2021-08-22 01:25:22.944 [Thread-3] INFO  ir.sharif.math.zahraSoukhtedel.controller.enterPage.SignUpController - user z registered.
+2021-08-22 01:25:24.554 [Thread-3] INFO  ir.sharif.math.zahraSoukhtedel.controller.enterPage.SignUpController - this username already exists.
+2021-08-22 01:25:24.718 [Thread-3] INFO  ir.sharif.math.zahraSoukhtedel.controller.enterPage.SignUpController - this username already exists.
+2021-08-22 01:25:24.754 [Thread-3] INFO  ir.sharif.math.zahraSoukhtedel.controller.enterPage.SignUpController - this username already exists.
+2021-08-22 01:25:48.308 [Thread-3] WARN  ir.sharif.math.zahraSoukhtedel.controller.network.SocketResponseSender - socket Socket[addr=/127.0.0.1,port=59882,localport=1080] is disconnected

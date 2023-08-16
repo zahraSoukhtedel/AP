@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="requestPane" prefHeight="200.0" prefWidth="238.0" style="-fx-background-color: #536878;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ir.sharif.math.zahraSoukhtedel.view.personalPage.notificationsPage.RequestFXController">
+   <children>
+      <Label fx:id="requester" alignment="CENTER" layoutX="80.0" layoutY="8.0" prefHeight="49.0" prefWidth="79.0" textFill="WHITE" />
+      <Button layoutX="31.0" layoutY="57.0" mnemonicParsing="false" onAction="#accept" prefHeight="24.0" prefWidth="177.0" style="-fx-background-color: #854442;" text="accept" />
+      <Button layoutX="31.0" layoutY="100.0" mnemonicParsing="false" onAction="#reject" prefHeight="24.0" prefWidth="177.0" style="-fx-background-color: #854442;" text="reject" />
+      <Button layoutX="31.0" layoutY="141.0" mnemonicParsing="false" onAction="#muteReject" prefHeight="24.0" prefWidth="177.0" style="-fx-background-color: #854442;" text="mute reject" />
+   </children>
+   <effect>
+      <InnerShadow />
+   </effect>
+</AnchorPane>

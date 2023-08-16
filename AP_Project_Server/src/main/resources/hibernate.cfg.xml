@@ -1,0 +1,30 @@
+<hibernate-configuration>
+    <session-factory>
+        <!--SQLite-->
+
+<!--        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQL95Dialect</property>-->
+<!--        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>-->
+<!--        <property name="hibernate.connection.username">postgres</property>-->
+<!--        <property name="hibernate.connection.password">299792458</property>-->
+<!--        <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/Grus</property>-->
+
+<!--        <property name="connection_pool_size">1</property>-->
+
+<!--        <property name="hbm2ddl.auto">update</property>-->
+
+<!--        <property name="show_sql">true</property>-->
+
+
+        <property name="dialect">org.hibernate.dialect.SQLiteDialect</property>
+        <property name="connection.driver_class">org.sqlite.JDBC</property>
+        <property name="connection.url">jdbc:sqlite:./src/main/resources/database/serverDB.db</property>
+        <property name="hbm2ddl.auto">create</property>
+
+        <mapping class="ir.sharif.math.zahraSoukhtedel.models.User"/>
+        <mapping class="ir.sharif.math.zahraSoukhtedel.models.Group"/>
+        <mapping class="ir.sharif.math.zahraSoukhtedel.models.Chat"/>
+        <mapping class="ir.sharif.math.zahraSoukhtedel.models.ChatState"/>
+        <mapping class="ir.sharif.math.zahraSoukhtedel.models.media.Tweet"/>
+        <mapping class="ir.sharif.math.zahraSoukhtedel.models.media.Message"/>
+    </session-factory>
+</hibernate-configuration>

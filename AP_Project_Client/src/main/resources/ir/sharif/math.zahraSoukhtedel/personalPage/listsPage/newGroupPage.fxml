@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="547.0" prefWidth="814.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ir.sharif.math.zahraSoukhtedel.view.personalPage.listsPage.NewGroupFXController">
+   <children>
+      <TextField fx:id="groupNameField" layoutX="238.0" layoutY="245.0" prefHeight="29.0" prefWidth="340.0" promptText="group name" />
+      <Button layoutX="347.0" layoutY="333.0" mnemonicParsing="false" onAction="#makeGroup" prefHeight="44.0" prefWidth="123.0" style="-fx-background-color: #536878;" text="make group" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button layoutX="20.0" layoutY="496.0" mnemonicParsing="false" onAction="#back" prefHeight="24.0" prefWidth="97.0" style="-fx-background-color: #536878;" text="back" textFill="WHITE" />
+      <Button layoutX="696.0" layoutY="496.0" mnemonicParsing="false" onAction="#goToMainPage" prefHeight="24.0" prefWidth="97.0" style="-fx-background-color: #536878;" text="main page" textFill="WHITE" />
+      <Label fx:id="errorLabel" alignment="CENTER" layoutX="238.0" layoutY="297.0" prefHeight="29.0" prefWidth="340.0" textFill="#e80909" />
+   </children>
+</AnchorPane>

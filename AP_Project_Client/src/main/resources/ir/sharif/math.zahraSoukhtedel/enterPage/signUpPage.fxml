@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="540.0" prefWidth="720.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ir.sharif.math.zahraSoukhtedel.view.enterPage.SignUpFXController">
+    <VBox layoutX="263.0" layoutY="82.0" prefHeight="337.0" prefWidth="313.0" spacing="10.0">
+        <TextField fx:id="username" />
+        <TextField fx:id="firstname" />
+        <TextField fx:id="lastname" />
+        <TextField fx:id="bio" prefHeight="118.0" prefWidth="313.0" />
+        <DatePicker fx:id="birthdate" prefHeight="24.0" prefWidth="319.0" />
+        <TextField fx:id="email" />
+        <TextField fx:id="phoneNumber" />
+        <TextField fx:id="password" />
+        <ChoiceBox fx:id="lastSeenChoice" prefHeight="24.0" prefWidth="138.0" />
+    </VBox>
+    <CheckBox fx:id="publicData" alignment="TOP_LEFT" layoutX="170.0" layoutY="430.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="452.0" text="I want my data(birthdate, phone number and email) to be public" />
+    <Button layoutX="365.0" layoutY="463.0" mnemonicParsing="false" onAction="#register" prefHeight="24.0" prefWidth="87.0" text="register" />
+    <VBox layoutX="97.0" layoutY="84.0" prefHeight="346.0" prefWidth="145.0" spacing="10.0">
+        <Label alignment="CENTER_RIGHT" prefHeight="16.0" prefWidth="168.0" text="username">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER_RIGHT" prefHeight="28.0" prefWidth="146.0" text="first name">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER_RIGHT" prefHeight="32.0" prefWidth="146.0" text="last name">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER_RIGHT" prefHeight="58.0" prefWidth="147.0" text="bio">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER_RIGHT" prefHeight="24.0" prefWidth="145.0" text="birthdate">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER_RIGHT" prefHeight="22.0" prefWidth="147.0" text="email">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER_RIGHT" prefHeight="22.0" prefWidth="160.0" text="phone number">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER_RIGHT" prefHeight="23.0" prefWidth="148.0" text="password">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER_RIGHT" prefHeight="22.0" prefWidth="145.0" text="last seen">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+    </VBox>
+    <Label fx:id="errorLabel" alignment="CENTER" layoutX="204.0" layoutY="495.0" prefHeight="22.0" prefWidth="409.0" textFill="#e40707">
+        <font>
+            <Font size="15.0" />
+        </font>
+    </Label>
+    <Label alignment="CENTER" contentDisplay="TOP" layoutX="263.0" layoutY="39.0" prefHeight="23.0" prefWidth="292.0" text="Welcome to the Grus" textFill="#854442">
+        <font>
+            <Font name="System Bold Italic" size="17.0" />
+        </font>
+    </Label>
+</AnchorPane>

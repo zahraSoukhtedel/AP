@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane prefHeight="547.0" prefWidth="814.0" style="-fx-background-color: #212121;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ir.sharif.math.zahraSoukhtedel.view.messagingPage.MessageViewerFXController">
+   <children>
+      <Rectangle fx:id="photoBox" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff" height="232.0" layoutX="192.0" layoutY="19.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="431.0" />
+      <TextArea fx:id="messageContentField" layoutX="114.0" layoutY="287.0" prefHeight="137.0" prefWidth="586.0" style="-fx-background-color: grey;" />
+      <Button layoutX="28.0" layoutY="503.0" mnemonicParsing="false" onAction="#back" prefHeight="25.0" prefWidth="79.0" style="-fx-background-color: #854442;" text="back" textFill="WHITE" />
+      <Button layoutX="713.0" layoutY="503.0" mnemonicParsing="false" onAction="#goToMainPage" prefHeight="25.0" prefWidth="79.0" style="-fx-background-color: #854442;" text="main page" textFill="WHITE" />
+      <Button layoutX="301.0" layoutY="452.0" mnemonicParsing="false" onAction="#forward" prefHeight="24.0" prefWidth="107.0" style="-fx-background-color: #854442;" text="forward" textFill="WHITE" />
+      <Button fx:id="editButton" layoutX="181.0" layoutY="452.0" mnemonicParsing="false" onAction="#edit" prefHeight="24.0" prefWidth="107.0" style="-fx-background-color: #854442;" text="edit" textFill="WHITE" />
+      <Button fx:id="deleteButton" layoutX="544.0" layoutY="452.0" mnemonicParsing="false" onAction="#delete" prefHeight="24.0" prefWidth="107.0" style="-fx-background-color: #854442;" text="delete" textFill="WHITE" />
+      <Label fx:id="messageDateLabel" layoutX="126.0" layoutY="506.0" prefHeight="25.0" prefWidth="271.0" textAlignment="CENTER" textFill="#56cd1e" />
+      <Label fx:id="senderLabel" layoutX="164.0" layoutY="252.0" prefHeight="38.0" prefWidth="472.0" textFill="#ee0b0b" />
+      <Button layoutX="425.0" layoutY="452.0" mnemonicParsing="false" onAction="#checkUserProfile" prefHeight="24.0" prefWidth="107.0" style="-fx-background-color: #854442;" text="user profile" textFill="WHITE" />
+      <Label fx:id="errorLabel" alignment="CENTER_RIGHT" layoutX="437.0" layoutY="503.0" prefHeight="25.0" prefWidth="271.0" textAlignment="CENTER" textFill="#eb0505" />
+   </children>
+</AnchorPane>

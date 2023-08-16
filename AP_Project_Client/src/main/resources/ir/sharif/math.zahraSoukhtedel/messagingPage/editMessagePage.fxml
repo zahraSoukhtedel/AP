@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="547.0" prefWidth="814.0" style="-fx-background-color: #212121;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ir.sharif.math.zahraSoukhtedel.view.messagingPage.EditMessageFXController">
+    <children>
+        <TextArea fx:id="messageContentField" layoutX="114.0" layoutY="116.0" prefHeight="211.0" prefWidth="586.0" style="-fx-background-color: grey;" />
+        <Button layoutX="27.0" layoutY="498.0" mnemonicParsing="false" onAction="#back" prefHeight="25.0" prefWidth="89.0" style="-fx-background-color: #854442;" text="back" />
+        <Button layoutX="702.0" layoutY="498.0" mnemonicParsing="false" onAction="#goToMainPage" prefHeight="25.0" prefWidth="89.0" style="-fx-background-color: #854442;" text="main page" />
+        <Button layoutX="354.0" layoutY="370.0" mnemonicParsing="false" onAction="#edit" prefHeight="46.0" prefWidth="107.0" style="-fx-background-color: #854442;" text="edit" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+        <Label fx:id="errorLabel" alignment="CENTER" layoutX="118.0" layoutY="402.0" prefHeight="28.0" prefWidth="579.0" textFill="#eb0505" />
+    </children>
+</AnchorPane>

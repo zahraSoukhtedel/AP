@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="chatPanel" prefHeight="150.0" prefWidth="184.0" style="-fx-background-color: #854442;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ir.sharif.math.zahraSoukhtedel.view.messagingPage.ChatPanelFXController">
+   <children>
+      <Label fx:id="chatNameLabel" alignment="CENTER" layoutX="14.0" layoutY="14.0" prefHeight="39.0" prefWidth="151.0" textFill="WHITE" />
+      <Label fx:id="unreadCountLabel" layoutX="14.0" layoutY="113.0" prefHeight="29.0" prefWidth="41.0" textFill="#0cfc68" />
+      <Button layoutX="109.0" layoutY="113.0" mnemonicParsing="false" onAction="#viewChat" prefHeight="24.0" prefWidth="63.0" text="view" />
+   </children>
+   <effect>
+      <InnerShadow />
+   </effect>
+</AnchorPane>

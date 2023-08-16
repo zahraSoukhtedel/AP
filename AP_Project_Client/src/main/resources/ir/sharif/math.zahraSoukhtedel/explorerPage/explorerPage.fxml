@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="547.0" prefWidth="814.0" style="-fx-background-color: #212121;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ir.sharif.math.zahraSoukhtedel.view.explorerPage.ExplorerFXController">
+    <ScrollPane layoutX="120.0" layoutY="114.0" prefHeight="369.0" prefWidth="599.0">
+        <content>
+            <VBox fx:id="tweetBox" prefHeight="369.0" prefWidth="582.0" spacing="10.0" style="-fx-background-color: grey;" />
+        </content>
+    </ScrollPane>
+   <Label alignment="CENTER" contentDisplay="CENTER" layoutX="434.0" layoutY="28.0" prefHeight="46.0" prefWidth="403.0" text="Explorer" textFill="#854442">
+      <font>
+         <Font name="System Bold Italic" size="36.0" />
+      </font>
+   </Label>
+   <Button layoutX="15.0" layoutY="491.0" mnemonicParsing="false" onAction="#back" prefHeight="42.0" prefWidth="63.0" text="back">
+      <font>
+         <Font size="17.0" />
+      </font>
+   </Button>
+   <TextField fx:id="usernameLabel" layoutX="120.0" layoutY="75.0" prefHeight="24.0" prefWidth="268.0" promptText="search user" />
+   <Button layoutX="388.0" layoutY="75.0" mnemonicParsing="false" onAction="#search" prefHeight="24.0" prefWidth="63.0" text="search" />
+   <Label fx:id="errorLabel" alignment="CENTER" layoutX="134.0" layoutY="36.0" prefHeight="24.0" prefWidth="268.0" textFill="#e40e0e">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </Label>
+</AnchorPane>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="547.0" prefWidth="814.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ir.sharif.math.zahraSoukhtedel.view.personalPage.editPage.EditFXController">
+    <VBox layoutX="287.0" layoutY="74.0" prefHeight="383.0" prefWidth="313.0" spacing="10.0">
+      <Label fx:id="usernameField" alignment="CENTER" prefHeight="26.0" prefWidth="313.0" />
+        <TextField fx:id="firstnameField" />
+        <TextField fx:id="lastnameField" />
+        <TextField fx:id="bioField" prefHeight="64.0" prefWidth="313.0" />
+        <DatePicker fx:id="birthdateField" prefHeight="24.0" prefWidth="319.0" />
+        <TextField fx:id="emailField" />
+        <TextField fx:id="phoneNumberField" />
+      <Label fx:id="lastSeenField" alignment="CENTER" prefHeight="22.0" prefWidth="313.0" />
+      <Label fx:id="accountPrivacyField" alignment="CENTER" prefHeight="25.0" prefWidth="319.0" />
+      <Label fx:id="dataPrivacyField" alignment="CENTER" prefHeight="27.0" prefWidth="313.0" />
+    </VBox>
+    <VBox layoutX="116.0" layoutY="79.0" prefHeight="389.0" prefWidth="145.0" spacing="10.0">
+        <Label alignment="CENTER_RIGHT" prefHeight="16.0" prefWidth="168.0" text="username">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER_RIGHT" prefHeight="28.0" prefWidth="146.0" text="first name">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER_RIGHT" prefHeight="32.0" prefWidth="146.0" text="last name">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER_RIGHT" prefHeight="58.0" prefWidth="147.0" text="bio">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER_RIGHT" prefHeight="27.0" prefWidth="148.0" text="birthdate">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER_RIGHT" prefHeight="22.0" prefWidth="147.0" text="email">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER_RIGHT" prefHeight="22.0" prefWidth="160.0" text="phone number">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER_RIGHT" prefHeight="22.0" prefWidth="145.0" text="last seen">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+      <Label alignment="CENTER_RIGHT" prefHeight="25.0" prefWidth="145.0" text="account privacy">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" prefHeight="24.0" prefWidth="150.0" text="data privacy">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+    </VBox>
+    <Label alignment="CENTER" contentDisplay="TOP" layoutX="285.0" layoutY="22.0" prefHeight="23.0" prefWidth="292.0" text="info">
+        <font>
+            <Font name="System Bold Italic" size="17.0" />
+        </font>
+    </Label>
+    <Label fx:id="errorLabel" alignment="CENTER" layoutX="233.0" layoutY="514.0" prefHeight="22.0" prefWidth="409.0" textFill="#e40707">
+        <font>
+            <Font size="15.0" />
+        </font>
+    </Label>
+   <Button layoutX="22.0" layoutY="500.0" mnemonicParsing="false" onAction="#back" prefHeight="25.0" prefWidth="107.0" style="-fx-background-color: #854442;" text="back" textFill="WHITE" />
+    <Button layoutX="352.0" layoutY="457.0" mnemonicParsing="false" onAction="#edit" prefHeight="49.0" prefWidth="159.0" style="-fx-background-color: #854442;" text="edit" textFill="WHITE">
+      <font>
+         <Font size="21.0" />
+      </font></Button>
+   <Button layoutX="664.0" layoutY="23.0" mnemonicParsing="false" onAction="#changeAvatar" prefHeight="40.0" prefWidth="125.0" style="-fx-background-color: #854442;" text="change avatar" textFill="WHITE" />
+   <Button layoutX="682.0" layoutY="500.0" mnemonicParsing="false" onAction="#goToMainPage" prefHeight="25.0" prefWidth="107.0" style="-fx-background-color: #854442;" text="main page" textFill="WHITE" />
+</AnchorPane>

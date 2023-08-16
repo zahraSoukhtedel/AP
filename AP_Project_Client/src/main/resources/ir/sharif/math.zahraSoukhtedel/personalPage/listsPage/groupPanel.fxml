@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="groupPane" prefHeight="150.0" prefWidth="165.0" style="-fx-background-color: #536878;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ir.sharif.math.zahraSoukhtedel.view.personalPage.listsPage.GroupPanelFXController">
+   <children>
+      <Label fx:id="groupNameLabel" alignment="CENTER" layoutX="20.0" layoutY="33.0" prefHeight="42.0" prefWidth="126.0" />
+      <Button layoutX="59.0" layoutY="90.0" mnemonicParsing="false" onAction="#view" text="view" />
+   </children>
+   <effect>
+      <InnerShadow />
+   </effect>
+</AnchorPane>

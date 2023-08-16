@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="viewPane" prefHeight="150.0" prefWidth="165.0" style="-fx-background-color: #536878;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ir.sharif.math.zahraSoukhtedel.view.personalPage.listsPage.ViewPanelFXController">
+   <children>
+      <Label fx:id="usernameLabel" alignment="CENTER" layoutX="14.0" layoutY="34.0" prefHeight="32.0" prefWidth="137.0" />
+      <Button layoutX="59.0" layoutY="89.0" mnemonicParsing="false" onAction="#view" text="view" />
+   </children>
+   <effect>
+      <InnerShadow />
+   </effect>
+</AnchorPane>

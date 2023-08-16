@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="540.0" prefWidth="720.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ir.sharif.math.zahraSoukhtedel.view.enterPage.SignInFXController">
+    <VBox layoutX="249.0" layoutY="270.0" prefHeight="59.0" prefWidth="263.0" spacing="10.0">
+        <TextField fx:id="username" />
+        <TextField fx:id="password" />
+    </VBox>
+    <VBox layoutX="116.0" layoutY="267.0" prefHeight="66.0" prefWidth="112.0" spacing="10.0">
+        <Label alignment="CENTER_RIGHT" prefHeight="25.0" prefWidth="112.0" text="username">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER_RIGHT" prefHeight="26.0" prefWidth="112.0" text="password">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+    </VBox>
+    <Label fx:id="errorLabel" alignment="CENTER" layoutX="170.0" layoutY="414.0" prefHeight="22.0" prefWidth="409.0" textFill="#e40707">
+        <font>
+            <Font size="15.0" />
+        </font>
+    </Label>
+    <Label alignment="CENTER" contentDisplay="TOP" layoutX="228.0" layoutY="176.0" prefHeight="23.0" prefWidth="292.0" text="Welcom back to the Grus" textFill="#111111">
+        <font>
+            <Font name="System Bold Italic" size="17.0" />
+        </font>
+    </Label>
+    <Button layoutX="279.0" layoutY="388.0" mnemonicParsing="false" onAction="#login" prefHeight="26.0" prefWidth="203.0" text="login" textFill="#b21a1a" />
+   <Pane layoutX="-28.0" layoutY="-24.0" prefHeight="200.0" prefWidth="200.0" />
+</AnchorPane>
